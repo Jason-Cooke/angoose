@@ -142,7 +142,7 @@ Only modules registered with Angoose will be exported to client side(hence the t
 - For Mongoose models, just make sure you set your `module.exports` to the return value of `mongoose.model()` call. 
 - For other modules, call `angoose.module(name, func_or_object)` to register your service module. (angoose.service() is still supported and does same thing)
 
-And for either case, make sure Angoose knwo where to find your model files by using the `modelDir` configuration.
+And for either case, make sure Angoose know where to find your model files by using the `modelDir` configuration.
 
 There are a couple of exmaples under `angoose/models` directory for reference. 
 
